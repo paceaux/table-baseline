@@ -1,0 +1,33 @@
+{
+  "name": "table-baseline.css",
+  "version": "1.0.0",
+  "description": "A good start for styling your tables",
+  "main": "src/baseline.table.css",
+  "style": "src/baseline.table.css",
+  "files": [
+    "LICENSE.md",
+    "src/baseline.table.css"
+  ],
+  "scripts": {
+    "changelog": "auto-changelog --commit-limit false --unreleased"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paceaux/table-baseline.git"
+  },
+  "keywords": [
+    "CSS",
+    "Typography",
+    "tables",
+    "baseline"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paceaux/table-baseline/issues"
+  },
+  "homepage": "https://github.com/paceaux/table-baseline#readme",
+  "author": "Frank M. Taylor",
+  "devDependencies": {
+    "auto-changelog": "^2.2.1"
+  }
+}

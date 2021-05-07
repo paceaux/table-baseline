@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Table Baseline</title>
+	<link rel="stylesheet" href="src/baseline.table.css">
+</head>
+<body>
+<h1>A Baseline set of styles for tables that's built on the typography baseline</h1>
+<hr />
+<table>
+    <caption>A table with column headers showing synonyms of synonyms</caption>
+    <thead>
+        <tr>
+            <th id="semantic">Semantic</th>
+            <th id="linguistic">Linguistic</th>
+            <th id="allowable">Allowable</th>
+            <th id="syntactic">Syntactic</th>
+            <th id="correct">Correct</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td headers="semantic">linguistic</td>
+            <td headers="linguistic">grammatical</td>
+            <td headers="allowable">acceptable</td>
+            <td headers="syntactic">linguistic</td>
+            <td headers="correct">appropriate</td>
+        </tr>
+        <tr>
+            <td headers="semantic">allowable</td>
+            <td headers="linguistic">etymological</td>
+            <td headers="allowable">admissible</td>
+            <td headers="syntactic">acceptable</td>
+            <td headers="correct">equitable</td>
+        </tr>
+        <tr>
+            <td headers="semantic">morphological</td>
+            <td headers="linguistic">morphological</td>
+            <td headers="allowable">legal</td>
+            <td headers="syntactic">correct</td>
+            <td headers="correct">factual</td>
+        </tr>
+        <tr>
+            <td headers="semantic">syntactic</td>
+            <td headers="linguistic">phonetic</td>
+            <td headers="allowable">proper</td>
+            <td headers="syntactic">phonological</td>
+            <td headers="correct">legitimate</td>
+        </tr>
+        <tr>
+            <td headers="semantic">acceptable</td>
+            <td headers="linguistic">lingual</td>
+            <td headers="allowable">legitimate</td>
+            <td headers="syntactic">semantic</td> 
+            <td headers="correct">perfect</td>
+        </tr>
+    </tbody>
+</table>
+<hr />
+<table>
+    <caption>A multiplication table with column and row headers</caption>
+    <thead>
+        <tr>
+            <th id="one" scope="col">1</th>
+            <th id="two" scope="col">2</th>
+            <th id="three" scope="col">3</th>
+            <th id="four" scope="col">4</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th id="times-one" headers="one" scope="row">1</th>
+            <td headers="two times-one">2</td>
+            <td headers="three times-one">3</td>
+            <td headers="four times-one">4</td>
+        </tr>
+        <tr>
+            <th id="times-two" headers="two" scope="row">2</th>
+            <td headers="two times-two">4</td>
+            <td headers="three times-two">6</td>
+            <td headers="four times-two">8</td>
+        </tr>
+        <tr>
+            <th id="times-three" headers="three" scope="row">3</th>
+            <td headers="two times-three">6</td>
+            <td headers="three times-three">9</td>
+            <td headers="four times-three">12</td>
+        </tr>
+        <tr>
+            <th id="times-four" headers="four" scope="row">4</th>
+            <td headers="two times-four">8</td>
+            <td headers="three times-four">12</td>
+            <td headers="four times-four">16</td>
+        </tr>
+    </tbody>
+</table>
+<hr />
+<table>
+    <caption>Measurement of legs and tails in Cats and English speakers</caption>
+    <thead>
+        <tr>
+            <th> ID </th>
+            <th> Measurement </th>
+            <th> Average </th>
+            <th> Maximum</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>   
+            <th scope=rowgroup> Cats   </th>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>93</td> 
+            <th scope=row> Legs</th>
+            <td> 3.5</td>
+            <td> 4</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <th scope=row>Tails</th>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td></td>
+            <th scope=rowgroup> English speakers</th>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>32</td>
+            <th scope=row> Legs </th>
+            <td> 2.67</td>
+            <td> 4</td>
+        </tr>
+        <tr>
+            <td>35</td>
+            <th scope=row> Tails</th>
+            <td> 0.33</td>
+            <td> 1</td>
+        </tr>
+    </tbody>
+</table>
+  <hr />
+
+
+<table>
+    <caption>A table with headers and footers</caption>
+    <thead>
+        <tr>
+            <th></th>
+            <th id="year-2008">2008</th>
+            <th id="year-2007">2007</th>
+            <th id="year-2006">2006</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th id="net-sales" scope="row">Net sales</th>
+            <td headers="net-sales year-2008">$ 32,479;</td>
+            <td headers="net-sales year-2007">$ 24,006;</td>
+            <td headers="net-sales year-2006">$ 19,315;</td>
+        </tr>
+        <tr>
+            <th id="cost-of-sales" scope="row">Cost of sales</th>
+            <td headers="cost-of-sales year-2008">  21,334</td>
+            <td headers="cost-of-sales year-2007">  15,852</td>
+            <td headers="cost-of-sales year-2006">  13,717</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th id="gross-margin" scope="row">Gross margin</th>
+            <td headers="gross-margin year-2008">$ 11,145</td>
+            <td headers="gross-margin year-2007">$  8,154</td>
+            <td headers="gross-margin year-2006">$  5,598</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th id="gross-margin-percent" scope="row">Gross margin percentage</th>
+            <td headers="gross-margin-percent year-2008">34.3%</td>
+            <td headers="gross-margin-percent year-2007">34.0%</td>
+            <td headers="gross-margin-percent year-2006">29.0%</td>
+        </tr>
+    </tfoot>
+</table>
+
+  <hr />
+<table>
+  <caption>Specification values: <b>Steel</b>, <b>Castings</b>,
+  Ann. A.S.T.M. A27-16, Class B;* P max. 0.06; S max. 0.05.</caption>
+  <thead>
+  <tr>
+    <th rowspan=2>Grade.</th>
+    <th rowspan=2>Yield Point.</th>
+    <th colspan=2>Ultimate tensile strength</th>
+    <th rowspan=2>Per cent elong. 50.8mm or 2 in.</th>
+    <th rowspan=2>Per cent reduct. area.</th>
+  </tr>
+  <tr>
+    <th>kg/mm<sup>2</sup></th>
+    <th>lb/in<sup>2</sup></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Hard</td>
+    <td>0.45 ultimate</td>
+    <td>56.2</td>
+    <td>80,000</td>
+    <td>15</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Medium</td>
+    <td>0.45 ultimate</td>
+    <td>49.2</td>
+    <td>70,000</td>
+    <td>18</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Soft</td>
+    <td>0.45 ultimate</td>
+    <td>42.2</td>
+    <td>60,000</td>
+    <td>22</td>
+    <td>30</td>
+  </tr>
+  </tbody>
+</table>
+  <hr />
+  <address>
+  <h4>Who should you contact about this?</h4>
+  <p><a href="https://twitter.com/paceaux">Paceaux</a>, or <a href="https://github.com/paceaux/typography-baseline" target="_blank">Fork it </a> if you want. 
+  </p>
+</address>
+
+</body>
+</html>
