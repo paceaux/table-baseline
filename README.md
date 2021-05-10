@@ -139,7 +139,6 @@ You have two font families to choose from.
 ```
     --tableBaseFontFamily: var(--baseFontFamily,  'Georgia','Times New Roman', 'serif');
     --tableTitleFontFamily: var(--titleFontFamily, 'Helvetica', 'Arial', 'sans-serif');
-    --codeFontFamily: monospace;
 ```
 
 ## Conventions and Standards
@@ -151,8 +150,8 @@ The CSS follows the guidelines established [here](https://gist.github.com/paceau
 CSS Variable names follow a convention established [here](https://gist.github.com/paceaux/8638765e747f5bd6387b721cde99e066#sassscssstylus-naming).
 
 
-[license-image]: http://img.shields.io/npm/l/typography-baseline.css.svg
+[license-image]: http://img.shields.io/npm/l/table-baseline.css.svg
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/typography-baseline.css.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=typography-baseline.css
+[downloads-image]: http://img.shields.io/npm/dm/table-baseline.css.svg
+[downloads-url]: http://npm-stat.com/charts.html?package=table-baseline.css
 
