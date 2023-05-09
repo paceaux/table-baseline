@@ -149,12 +149,14 @@ td {
     padding: var(--tableCellVertPadding);
     border-color: var(--tableBorderColor);
     border-style: var(--tableBorderStyle);
+    background-color: var(--tableCellBgColor);
 }
 
 th:empty,
 td:empty {
     padding: 0;
     border-width: 0;
+    --tableCellBgColor: transparent;
 }
 
 td {
@@ -186,10 +188,19 @@ tfoot th {
 /*=====
 #Table #Rows
 =====*/
+/* 
+background-color could be set on the row, 
+    but then the td:empty rule would have to set a bg color that matches the web page's bg color.
+By setting variable on the row and passing into the cell, 
+    we don't need to add a color to match the web page's bg color. 
+This also means that setting a color based on nth column has lower specificity:
+    td:nth-of-type(even) { --tableCellBgColor: rgba(220,220,165, .3);}
+*/
+
 tr {
-    background-color: var(--tablePrimaryBgColor);
+    --tableCellBgColor: var(--tablePrimaryBgColor);;
 }
 
 tr:nth-child(even) {
-    background-color: var(--tableAlternatingBgColor);
+    --tableCellBgColor: var(--tableAlternatingBgColor);
 }
