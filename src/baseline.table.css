@@ -26,8 +26,10 @@ table {
     
     /* assume for any column headers*/
     --tableColHeaderSize: var(--tableBiggestTitleSize);
+
     /* assume for any row headers*/
     --tableRowHeaderSize: var(--tableBaseTitleSize);
+
     /*used by th in the tbody, thead, tfoot*/
     --tableHeaderSize: var(--tableRowHeaderSize);
 
@@ -42,8 +44,8 @@ table {
     /*===== 
         #Font #FontFamilies #Typeface
     =====*/
-    --tableBaseFontFamily: var(--baseFontFamily,  'Georgia','Times New Roman', 'serif');
-    --tableTitleFontFamily: var(--titleFontFamily, 'Helvetica', 'Arial', 'sans-serif');
+    --tableBaseFontFamily: var(--baseFontFamily,  "Georgia","Times New Roman", "serif");
+    --tableTitleFontFamily: var(--titleFontFamily, "Helvetica", "Arial", "sans-serif");
 
     --tableCaptionTransform: capitalize;
     --tableCaptionFontStyle: italic;
@@ -126,15 +128,15 @@ tbody {
 #Table    
 =====*/
 table {
-    border-collapse: var(--tableBorderCollapse);
     color: var(--tableBaseTextColor);
     font-family: var(--tableBaseFontFamily);
+    border-collapse: var(--tableBorderCollapse);
 }
 
 caption {
-    font-size:  var(--tableSmallestTextSize);
-    text-transform: var(--tableCaptionTransform);
     font-style: var(--tableCaptionFontStyle);
+    text-transform: var(--tableCaptionTransform);
+    font-size:  var(--tableSmallestTextSize);
 }
 
 
@@ -147,8 +149,8 @@ td {
     vertical-align: var(--tableVertAlign);
     line-height: var(--tableBaseLineHeight);
     padding: var(--tableCellVertPadding);
-    border-color: var(--tableBorderColor);
     border-style: var(--tableBorderStyle);
+    border-color: var(--tableBorderColor);
     background-color: var(--tableCellBgColor);
 }
 
@@ -173,8 +175,8 @@ th {
 
 th[scope="rowgroup"] {
     font-size: var(--tableBiggestTitleSize);
-    border-width: 0;
     padding: var(--tableCellVertPadding);
+    border-width: 0;
 }
 
 thead th {
@@ -188,6 +190,7 @@ tfoot th {
 /*=====
 #Table #Rows
 =====*/
+
 /* 
 background-color could be set on the row, 
     but then the td:empty rule would have to set a bg color that matches the web page's bg color.
