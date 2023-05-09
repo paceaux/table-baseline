@@ -127,11 +127,16 @@ tbody {
 /*=====
 #Table    
 =====*/
+
+/* intentionally separate the settings from the application for readability */ 
+/* stylelint-disable no-duplicate-selectors */
 table {
     color: var(--tableBaseTextColor);
     font-family: var(--tableBaseFontFamily);
     border-collapse: var(--tableBorderCollapse);
 }
+
+/* stylelint-enable no-duplicate-selectors */
 
 caption {
     font-style: var(--tableCaptionFontStyle);
@@ -152,13 +157,6 @@ td {
     border-style: var(--tableBorderStyle);
     border-color: var(--tableBorderColor);
     background-color: var(--tableCellBgColor);
-}
-
-th:empty,
-td:empty {
-    padding: 0;
-    border-width: 0;
-    --tableCellBgColor: transparent;
 }
 
 td {
@@ -185,6 +183,13 @@ thead th {
 
 tfoot th {
   border-top-width: var(--borderWidth);
+}
+
+th:empty,
+td:empty {
+    padding: 0;
+    border-width: 0;
+    --tableCellBgColor: transparent;
 }
 
 /*=====
