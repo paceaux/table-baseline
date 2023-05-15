@@ -1,6 +1,6 @@
 {
   "name": "table-baseline.css",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A good start for styling your tables",
   "main": "src/baseline.table.css",
   "style": "src/baseline.table.css",
