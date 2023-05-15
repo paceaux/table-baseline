@@ -1,6 +1,6 @@
 {
   "name": "table-baseline.css",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A good start for styling your tables",
   "main": "src/baseline.table.css",
   "style": "src/baseline.table.css",
@@ -9,7 +9,8 @@
     "src/baseline.table.css"
   ],
   "scripts": {
-    "changelog": "auto-changelog --commit-limit false --unreleased"
+    "changelog": "auto-changelog --commit-limit false --unreleased",
+    "test": "stylelint src/baseline.table.css"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,9 @@
   "homepage": "https://github.com/paceaux/table-baseline#readme",
   "author": "Frank M. Taylor",
   "devDependencies": {
-    "auto-changelog": "^2.2.1"
+    "auto-changelog": "^2.2.1",
+    "stylelint": "^15.6.1",
+    "stylelint-config-standard": "^33.0.0",
+    "stylelint-order": "^6.0.3"
   }
 }
