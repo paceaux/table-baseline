@@ -194,8 +194,141 @@
 </table>
   <hr />
 <table>
-  <caption>A Table with <code>col</code> and <code>colgroup</code> of proto-indo-europeans languages and words.</caption>
+  <caption>A Table with multiple <code>col</code>s and a single <code>colgroup</code> of proto-indo-european languages and words.</caption>
+  <colgroup>
     <col />
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+  </colgroup>
+  <thead>
+    <tr>
+      <th id="modern-english">Modern English</th>
+      <th id="old-norse">Old Norse</th>
+      <th id="swedish">Swedish</th>
+      <th id="old-english">Old English</th>
+      <th id="old-dutch">Old Dutch</th>
+      <th id="french">French</th>
+      <th id="spanish">Spanish</th>
+      <th id="portuguese">Portuguese</th>
+      <th id="catalan">Catalan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th headers="modern-english" id="modern-english-no">No</th>
+      <td headers="modern-english-no  old-norse">Nei</td>
+      <td headers="modern-english-no   swedish">Nej</td>
+      <td headers="modern-english-no  old-english">Ná</td>
+      <td headers="modern-english-no  old-dutch">Nein</td>
+      <td headers="modern-english-no french">Non</td>
+      <td headers="modern-english-no spanish">No</td>
+      <td headers="modern-english-no portuguese">não</td>
+      <td headers="modern-english-no catalan">No</td>
+    </tr>
+    <tr>
+      <th headers="modern-english" id="modern-english-yes">Yes</th>
+      <td headers="modern-english-yes old-norse">já</td>
+      <td headers="modern-english-yes swedish">Ja</td>
+      <td headers="modern-english-yes old-english">Gea</td>
+      <td headers="modern-english-yes old-dutch">Ja</td>
+      <td headers="modern-english-yes french">Oui</td>
+      <td headers="modern-english-yes spanish">Si</td>
+      <td headers="modern-english-yes portuguese">sim</td>
+      <td headers="modern-english-yes catalan">sí</td>
+    </tr>
+    <tr>
+      <th headers="modern-english" id="modern-english-bear">Bear</th>
+      <td headers="modern-english-bear old-norse">Bjorn</td>
+      <td headers="modern-english-bear swedish">bjorn</td>
+      <td headers="modern-english-bear old-english">bera</td>
+      <td headers="modern-english-bear old-dutch">beer</td>
+      <td headers="modern-english-bear french">Ours</td>
+      <td headers="modern-english-bear spanish">Oso</td>
+      <td headers="modern-english-bear portuguese">Urso</td>
+      <td headers="modern-english-bear catalan">ós</td>
+    </tr>
+  </tbody>
+</table>
+<hr />
+<table>
+  <caption>A Table with multiple <code>col</code>s and multiple <code>colgroup</code>s of proto-indo-european languages and words.</caption>
+    <colgroup />
+  <colgroup>
+    <col />
+    <col />
+    <col />
+    <col />
+  </colgroup>
+  <colgroup>
+    <col />
+    <col />
+    <col />
+    <col />
+  </colgroup>
+  <thead>
+    <tr>
+      <td></td>
+      <th colspan="2" id="north-germanic">North Germanic</th>
+      <th colspan="2" id="west-germanic">West Germanic</th>
+      <th colspan="4" id="latin">Latin</th>
+    </tr>
+    <tr>
+      <th id="modern-english">Modern English</th>
+      <th id="old-norse" headers="north-germanic germanic">Old Norse</th>
+      <th id="swedish" headers="north-germanic germanic">Swedish</th>
+      <th id="old-english" headers="west-germanic germanic">Old English</th>
+      <th id="old-dutch" headers="west-germanic germanic">Old Dutch</th>
+      <th id="french" headers="latin italic">French</th>
+      <th id="spanish" headers="latin italic">Spanish</th>
+      <th id="portuguese" headers="latin italic">Portuguese</th>
+      <th id="catalan" headers="latin italic">Catalan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th headers="modern-english" id="modern-english-no">No</th>
+      <td headers="modern-english-no germanic north-germanic old-norse">Nei</td>
+      <td headers="modern-english-no germanic north-germanic swedish">Nej</td>
+      <td headers="modern-english-no germanic west-germanic old-english">Ná</td>
+      <td headers="modern-english-no germanic west-germanic old-dutch">Nein</td>
+      <td headers="modern-english-no latin italic french">Non</td>
+      <td headers="modern-english-no latin italic spanish">No</td>
+      <td headers="modern-english-no latin italic portuguese">não</td>
+      <td headers="modern-english-no latin italic catalan">No</td>
+    </tr>
+    <tr>
+      <th headers="modern-english" id="modern-english-yes">Yes</th>
+      <td headers="modern-english-yes germanic north-germanic old-norse">já</td>
+      <td headers="modern-english-yes germanic north-germanic swedish">Ja</td>
+      <td headers="modern-english-yes germanic west-germanic old-english">Gea</td>
+      <td headers="modern-english-yes germanic west-germanic old-dutch">Ja</td>
+      <td headers="modern-english-yes latin italic french">Oui</td>
+      <td headers="modern-english-yes latin italic spanish">Si</td>
+      <td headers="modern-english-yes latin italic portuguese">sim</td>
+      <td headers="modern-english-yes latin italic catalan">sí</td>
+    </tr>
+    <tr>
+      <th headers="modern-english" id="modern-english-bear">Bear</th>
+      <td headers="modern-english-bear germanic north-germanic old-norse">Bjorn</td>
+      <td headers="modern-english-bear germanic north-germanic swedish">bjorn</td>
+      <td headers="modern-english-bear germanic west-germanic old-english">bera</td>
+      <td headers="modern-english-bear germanic west-germanic old-dutch">beer</td>
+      <td headers="modern-english-bear latin italic french">Ours</td>
+      <td headers="modern-english-bear latin italic spanish">Oso</td>
+      <td headers="modern-english-bear latin italic portuguese">Urso</td>
+      <td headers="modern-english-bear latin italic catalan">ós</td>
+    </tr>
+  </tbody>
+</table>
+<hr />
+<table>
+  <caption>A Table with multiple <code>col</code>s, multiple <code>colgroup</code>s, and multiple header rows of proto-indo-european languages and words.</caption>
+    <colgroup />
   <colgroup>
     <col />
     <col />
@@ -265,6 +398,223 @@
       <td headers="modern-english-bear latin italic spanish">Oso</td>
       <td headers="modern-english-bear latin italic portuguese">Urso</td>
       <td headers="modern-english-bear latin italic catalan">ós</td>
+    </tr>
+  </tbody>
+</table>
+<hr />
+<table>
+  <caption>A table with primary headers set in rows</caption>
+  <colgroup>
+  </colgroup>
+  <colgroup>
+    <col />
+    <col />
+    <col />
+  </colgroup>
+  <thead>
+    <tr>
+      <th id="modern-english">Modern English</th>
+      <td id="modern-english-no">No</td>
+      <td id="modern-english-yes">yes</td>
+      <td id="modern-english-bear">Bear</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th id="old-norse">Old Norse</th>
+      <td headers="old-norse modern-english-no">Nei</td>
+      <td headers="old-norse modern-english-yes">já</td>
+      <td headers="old-norse modern-english-bear">bjorn</td>
+    </tr>
+    <tr>
+      <th id="swedish">Swedish</th>
+      <td headers="swedish modern-english-no">Nej</td>
+      <td headers="swedish modern-english-yes">Ja</td>
+      <td headers="swedish modern-english-bear">bjorn</td>
+    </tr>
+    <tr>
+      <th id="old-english">Old English</th>
+      <td headers="old-english modern-english-no">Ná</td>
+      <td headers="old-english modern-english-yes">Gea</td>
+      <td headers="old-english modern-english-bear">bera</td>
+    </tr>
+    <tr>
+      <th id="old-dutch">Old Dutch</th>
+      <td headers="old-dutch modern-english-no">Nein</td>
+      <td headers="old-dutch modern-english-yes">Ja</td>
+      <td headers="old-dutch modern-english-bear">beer</td>
+    </tr>
+    <tr>
+      <th id="french">French</th>
+      <td headers="french modern-english-no">Non</td>
+      <td headers="french modern-english-yes">Oui</td>
+      <td headers="french modern-english-bear">Ours</td>
+    </tr>
+    <tr>
+      <th id="spanish">Spanish</th>
+      <td headers="spanish modern-english-no">No</td>
+      <td headers="spanish modern-english-yes">Sí</td>
+      <td headers="spanish modern-english-bear">Oso</td>
+    </tr>
+    <tr>
+      <th id="portuguese">Portuguese</th>
+      <td headers="portuguese modern-english-no">não</td>
+      <td headers="portuguese modern-english-yes">Sí</td>
+      <td headers="portuguese modern-english-bear">Oso</td>
+    </tr>
+    <tr>
+      <th id="catalan">Catalan</th>
+      <td headers="catalan modern-english-no">No</td>
+      <td headers="catalan modern-english-yes">Sí</td>
+      <td headers="catalan modern-english-bear">Os</td>
+    </tr>
+  </tbody>
+</table>
+<hr />
+<table>
+  <caption>A table with multiple headers set in rows</caption>
+  <colgroup span="2">
+  </colgroup>
+  <colgroup span="3">
+  </colgroup>
+  <thead>
+    <tr>
+      <td></td>
+      <th id="modern-english">Modern English</th>
+      <td id="modern-english-no" headers="modern-english">No</td>
+      <td id="modern-english-yes" headers="modern-english">yes</td>
+      <td id="modern-english-bear" headers="modern-english">Bear</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="2" id="north-germanic">North Germanic</th>
+      <th id="old-norse" headers="north-germanic">Old Norse</th>
+      <td headers="old-norse north-germanic modern-english-no">Nei</td>
+      <td headers="old-norse north-germanic modern-english-yes">já</td>
+      <td headers="old-norse north-germanic modern-english-bear">bjorn</td>
+    </tr>
+    <tr>
+      <th id="swedish" headers="north-germanic">Swedish</th>
+      <td headers="swedish north-germanic modern-english-no">Nej</td>
+      <td headers="swedish north-germanic modern-english-yes">Ja</td>
+      <td headers="swedish north-germanic modern-english-bear">bjorn</td>
+    </tr>
+    <tr>
+      <th rowspan="2" id="west-germanic">West Germanic</th>
+      <th id="old-english" headers="west-germanic">Old English</th>
+      <td headers="old-english west-germanic modern-english-no">Ná</td>
+      <td headers="old-english west-germanic modern-english-yes">Gea</td>
+      <td headers="old-english west-germanic modern-english-bear">bera</td>
+    </tr>
+    <tr>
+      <th id="old-dutch">Old Dutch</th>
+      <td headers="old-dutch west-germanic modern-english-no">Nein</td>
+      <td headers="old-dutch west-germanic modern-english-yes">Ja</td>
+      <td headers="old-dutch west-germanic modern-english-bear">beer</td>
+    </tr>
+    <tr>
+      <th rowspan="4" id="latin">Latin</th>
+      <th id="french" headers="latin">French</th>
+      <td headers="french latin modern-english-no">Non</td>
+      <td headers="french latin modern-english-yes">Oui</td>
+      <td headers="french latin modern-english-bear">Ours</td>
+    </tr>
+    <tr>
+      <th id="spanish" headers="latin">Spanish</th>
+      <td headers="spanish latin modern-english-no">No</td>
+      <td headers="spanish latin modern-english-yes">Sí</td>
+      <td headers="spanish latin modern-english-bear">Oso</td>
+    </tr>
+    <tr>
+      <th id="portuguese" headers="latin">Portuguese</th>
+      <td headers="portuguese latin modern-english-no">não</td>
+      <td headers="portuguese latin modern-english-yes">Sí</td>
+      <td headers="portuguese latin modern-english-bear">Oso</td>
+    </tr>
+    <tr>
+      <th id="catalan" headers="latin">Catalan</th>
+      <td headers="catalan latin modern-english-no">No</td>
+      <td headers="catalan latin modern-english-yes">Sí</td>
+      <td headers="catalan latin modern-english-bear">Os</td>
+    </tr>
+  </tbody>
+</table>
+<hr />
+<table>
+  <caption>A table with complex row headers</caption>
+  <colgroup>
+    <col />
+    <col />
+    <col />
+  </colgroup>
+  <colgroup>
+    <col />
+    <col />
+    <col />
+  </colgroup>
+  <thead>
+    <tr>
+      <td colspan="2"></td>
+      <th id="modern-english">Modern English</th>
+      <td id="modern-english-no" headers="modern-english">No</td>
+      <td id="modern-english-yes" headers="modern-english">yes</td>
+      <td id="modern-english-bear" headers="modern-english">Bear</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="4" id="">Germanic</th>
+      <th rowspan="2" id="north-germanic">North Germanic</th>
+      <th id="old-norse" headers="north-germanic">Old Norse</th>
+      <td headers="old-norse north-germanic modern-english-no">Nei</td>
+      <td headers="old-norse north-germanic modern-english-yes">já</td>
+      <td headers="old-norse north-germanic modern-english-bear">bjorn</td>
+    </tr>
+    <tr>
+      <th id="swedish" headers="north-germanic">Swedish</th>
+      <td headers="swedish north-germanic modern-english-no">Nej</td>
+      <td headers="swedish north-germanic modern-english-yes">Ja</td>
+      <td headers="swedish north-germanic modern-english-bear">bjorn</td>
+    </tr>
+    <tr>
+      <th rowspan="2" id="west-germanic">West Germanic</th>
+      <th id="old-english" headers="west-germanic">Old English</th>
+      <td headers="old-english west-germanic modern-english-no">Ná</td>
+      <td headers="old-english west-germanic modern-english-yes">Gea</td>
+      <td headers="old-english west-germanic modern-english-bear">bera</td>
+    </tr>
+    <tr>
+      <th id="old-dutch">Old Dutch</th>
+      <td headers="old-dutch west-germanic modern-english-no">Nein</td>
+      <td headers="old-dutch west-germanic modern-english-yes">Ja</td>
+      <td headers="old-dutch west-germanic modern-english-bear">beer</td>
+    </tr>
+    <tr>
+      <th rowspan="4">Italic</th>
+      <th rowspan="4" id="latin">Latin</th>
+      <th id="french" headers="latin">French</th>
+      <td headers="french latin modern-english-no">Non</td>
+      <td headers="french latin modern-english-yes">Oui</td>
+      <td headers="french latin modern-english-bear">Ours</td>
+    </tr>
+    <tr>
+      <th id="spanish" headers="latin">Spanish</th>
+      <td headers="spanish latin modern-english-no">No</td>
+      <td headers="spanish latin modern-english-yes">Sí</td>
+      <td headers="spanish latin modern-english-bear">Oso</td>
+    </tr>
+    <tr>
+      <th id="portuguese" headers="latin">Portuguese</th>
+      <td headers="portuguese latin modern-english-no">não</td>
+      <td headers="portuguese latin modern-english-yes">Sí</td>
+      <td headers="portuguese latin modern-english-bear">Oso</td>
+    </tr>
+    <tr>
+      <th id="catalan" headers="latin">Catalan</th>
+      <td headers="catalan latin modern-english-no">No</td>
+      <td headers="catalan latin modern-english-yes">Sí</td>
+      <td headers="catalan latin modern-english-bear">Os</td>
     </tr>
   </tbody>
 </table>

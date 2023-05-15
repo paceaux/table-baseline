@@ -9,7 +9,8 @@
     "src/baseline.table.css"
   ],
   "scripts": {
-    "changelog": "auto-changelog --commit-limit false --unreleased"
+    "changelog": "auto-changelog --commit-limit false --unreleased",
+    "test": "stylelint src/baseline.table.css"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,9 @@
   "homepage": "https://github.com/paceaux/table-baseline#readme",
   "author": "Frank M. Taylor",
   "devDependencies": {
-    "auto-changelog": "^2.2.1"
+    "auto-changelog": "^2.2.1",
+    "stylelint": "^15.6.1",
+    "stylelint-config-standard": "^33.0.0",
+    "stylelint-order": "^6.0.3"
   }
 }
